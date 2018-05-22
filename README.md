@@ -1,2 +1,2 @@
-# edacity-fend-project-03
+# udacity-fend-project-03
 Pixel Art Maker
