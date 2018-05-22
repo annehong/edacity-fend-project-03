@@ -66,7 +66,6 @@ $("input[name='tool']").on("change", function() {
 	else if ($(this).val() === "erase"){
 		draw = false; //change global variable
 	}
-	
 	console.log("After conditional draw value = ", draw);
 	
 });
