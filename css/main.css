@@ -60,13 +60,6 @@ table {
 
 body {
 	/* https://fonts.google.com/?selection.family=Great+Vibes|Montserrat|Open+Sans|Poiret+One|Quicksand&query=open */
-	/* styles to experiment later
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Quicksand', sans-serif;
-	font-family: 'Great Vibes', cursive;
-	font-family: 'Poiret One', cursive;
-	*/
-	font-family: 'Montserrat', 'Open Sans', sans-serif;
 	color: #2d3c49;
 	width: 980px;
 	margin: 50px auto;
@@ -74,17 +67,20 @@ body {
 }
 
 h1 {
-	font-size: 48px;
-	margin: 0.8em;
+	font-size: 70px;
+	margin: 0.2em;
+	font-family: Monoton;
+}
 }
 
 h2 {
-	font-size: 36px;
-	margin: 1.3em 0 0.25em;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+    margin: 1em 0 0.25em;
 }
 
 h2:first-of-type {
-	margin-top: 0.5em;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+    margin-top: 0.5em;
 }
 
 input#inputHeight {
@@ -116,4 +112,8 @@ input[type=number] {
 
 #pixelCanvas {
 	margin-top: 50px;
+}
+
+form#sizePicker {
+ 	font-family: 'Montserrat', 'Open Sans', sans-serif; 
 }
